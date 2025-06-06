@@ -1129,23 +1129,6 @@ These metrics better reflect human perception by analyzing textures, semantics, 
   A no-reference metric using statistical deviations from natural images.  
   📌 Lower NIQE implies higher natural image quality.
 
-- <a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/8a1d694707eb0fefe65871369074926d-Paper.pdf" target="_blank"><strong>FID (Fréchet Inception Distance)</strong></a>  
-  Measures distributional difference in features between generated and GT frames.  
-  📌 Lower FID indicates better semantic alignment.
-
-- <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.pdf" target="_blank"><strong>LPIPS (Learned Perceptual Image Patch Similarity)</strong></a>  
-  Uses deep features to assess perceptual similarity.  
-  📌 Lower LPIPS = better perceptual similarity.
-
-- <a href="https://arxiv.org/pdf/2207.08119" target="_blank"><strong>FloLPIPS</strong></a>  
-  Motion-aware LPIPS variant that uses optical flow for weighting.
-
-- <a href="https://link.springer.com/chapter/10.1007/978-3-031-19797-0_6" target="_blank"><strong>STLPIPS</strong></a>  
-  Shift-tolerant version of LPIPS, robust to slight misalignments.
-
-- <a href="https://ieeexplore.ieee.org/document/9298952" target="_blank"><strong>DISTS (Deep Image Structure and Texture Similarity)</strong></a>  
-  Separately evaluates structure and texture using deep features.  
-  📌 Balances local detail and global coherence.
 
 ---
 
@@ -1156,17 +1139,3 @@ These metrics evaluate spatiotemporal coherence across video sequences, importan
 - <a href="https://dl.acm.org/doi/pdf/10.1145/3343031.3351028" target="_blank"><strong>VSFA (Video Spatial-Feature Aggregation)</strong></a>  
   No-reference model estimating perceptual quality from human-labeled videos using deep recurrent features.  
 
-- <a href="https://arxiv.org/pdf/1811.09393" target="_blank"><strong>tOF (temporal Optical Flow consistency)</strong></a>  
-  Measures how consistent optical flow is across frames.  
-  📌 Lower tOF = smoother motion continuity.
-
-- <a href="https://arxiv.org/pdf/1812.01717" target="_blank"><strong>FVD (Fréchet Video Distance)</strong></a>  
-  Uses I3D features to compare real vs generated video distributions.  
-  📌 Lower FVD = better realism and temporal quality.
-
-- <a href="https://arxiv.org/pdf/2407.16124" target="_blank"><strong>FVMD (Fréchet Video Motion Distance)</strong></a>  
-  Enhances FVD by disentangling motion from appearance for better motion consistency evaluation.
-
-- <a href="https://arxiv.org/pdf/2311.17982" target="_blank"><strong>VBench</strong></a>  
-  Large-scale, no-reference benchmark for evaluating fidelity, coherence, and realism using semantic video representations.  
-  📌 Ideal for reference-free evaluation.
