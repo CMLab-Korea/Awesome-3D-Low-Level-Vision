@@ -17,9 +17,9 @@
 
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
-**"R3eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision"** (arXiv2025).
+**"R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision"** (arXiv2025).
 
-> 📝 **Authors**: Dahyeon Kye, Changhyun Roh, Sukhun Ko, Chanho Eom, Jihyong Oh†
+> 📝 **Authors**: Weeyoung Kwon, Jeahun Seong, Chanho Eom, and Jihyong Oh†
 
 > 🎓 **Institution**: Chung-Ang University, GSAIM  
 
@@ -27,7 +27,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📘 Abstract
 
-Video Frame Interpolation (VFI) is a fundamental Low-Level Vision (LLV) task that synthesizes intermediate frames between existing ones while maintaining spatial and temporal coherence. VFI techniques have evolved from classical motion compensation-based approach to deep learning-based approach, including kernel-, flow-, hybrid-, phase-, GAN-, Transformer-, Mamba-, and more recently diffusion model-based approach. We introduce AceVFI, the most comprehensive survey on VFI to date, covering over 250+ papers across these approaches. We systematically organize and describe VFI methodologies, detailing the core principles, design assumptions, and technical characteristics of each approach. We categorize the learning paradigm of VFI methods namely, Center-Time Frame Interpolation (CTFI) and Arbitrary-Time Frame Interpolation (ATFI). We analyze key challenges of VFI such as large motion, occlusion, lighting variation, and non-linear motion. In addition, we review standard datasets, loss functions, evaluation metrics. We examine applications of VFI including event-based, cartoon, medical image VFI and joint VFI with other LLV tasks. We conclude by outlining promising future research directions to support continued progress in the field. This survey aims to serve as a unified reference for both newcomers and experts seeking a deep understanding of modern VFI landscapes.
+Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have achieved significant progress in photorealistic 3D scene reconstruction and novel view synthesis. However, most existing models assume clean and high-resolution (HR) multi-view inputs, which limits their robustness under real-world degradations such as noise, blur, low-resolution (LR), and weather-induced artifacts. To address these limitations, the emerging field of 3D Low-Level Vision (3D LLV) extends classical 2D Low-Level Vision tasks including super-resolution (SR), deblurring, weather degradation removal, restoration, and enhancement into the 3D spatial domain. This survey, referred to as R3eVision, provides a comprehensive overview of robust rendering, restoration, and enhancement for 3D LLV by formalizing the degradation-aware rendering problem and identifying key challenges related to spatio-temporal consistency and ill-posed optimization. Recent methods that integrate LLV into neural rendering frameworks are categorized to illustrate how they enable high-fidelity 3D reconstruction under adverse conditions. Application domains such as autonomous driving, AR/VR, and robotics are also discussed, where reliable 3D perception from degraded inputs is critical. By reviewing representative methods, datasets, and evaluation protocols, this work positions 3D LLV as a fundamental direction for robust 3D content generation and scene-level reconstruction in real-world environments. We maintain an up-to-date project page: https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision.
 
 
 ---
@@ -1047,95 +1047,103 @@ We categorize recent 3D-LLV papers by methodology:
 
 ## 📊 Datasets & Benchmarks 
 
-We include commonly used datasets for evaluating VFI performance.  
-Datasets are categorized into **Triplet** and **Multi-frame** types depending on the supervision format.
+We include commonly used datasets for evaluating 3D-LLV performance.
 
+| **Dataset**              | Year | Type   | #Scenes | #Images     | Resolution     | Motion | Link  |
+|--------------------------|------|--------|---------|-------------|----------------|--------|-------|
+| DTU                      | 2014 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 124     | 49 or 64    | 1600 × 1200    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://roboimagedata.compute.dtu.dk/?page_id=36) |
+| Tanks and Temples        | 2017 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 21      | 100–400     | 1920 × 1080    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://www.tanksandtemples.org/) |
+| Deep Blending            | 2018 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 19      | 12–418      | 1288 × 816     | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://github.com/Phog/DeepBlending) |
+| LLFF                     | 2019 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 8       | 20–62       | 6032 × 3024    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://github.com/Fyusion/LLFF) |
+| Stereo Blur Dataset      | 2019 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 135     | Video       | 1280 × 720     | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://shangchenzhou.com/projects/stereoblur/) |
+| NeRF-synthetic           | 2020 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>      | 8       | 400         | 800 × 800      | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/bmild/nerf) |
+| BlendedMVS               | 2020 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 113     | 150–200     | 2048 × 1536    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/YoYo000/BlendedMVS) |
+| NSVF Synthetic           | 2020 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>       | 8       | 400         | 800 × 800      | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/facebookresearch/NSVF) |
+| HyperNeRF                | 2021 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 7       | Video       | 1920 × 1080    | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://hypernerf.github.io/) |
+| Deblur-NeRF              | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 31      | 27–53       | 600 × 400      | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://github.com/limacv/Deblur-NeRF) |
+| NeRF in the Dark         | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 5       | 25–200      | 6000 × 4000    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://bmild.github.io/rawnerf/) |
+| Mip-NeRF 360             | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 9       | 100–330     | 4096 × 3286    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://jonbarron.info/mipnerf360/) |
+| RTMV                     | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 2000    | 150         | 1600 × 1600    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/antony-wu/rtmv) |
+| iPhone Dataset           | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 14      | Video       | 720 × 960      | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://github.com/apple/ml-hdrnet) |
+| Objaverse                | 2023 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>       | 800K+   | 3D Object   | -              | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://objaverse.allenai.org/) |
 
-
-### 🔹 Triplet Datasets
-
-Early learning-based VFI approaches primarily rely on triplet datasets, where two input frames are used to predict the temporally centered GT frame.
-
-- <a href="https://vision.middlebury.edu/flow/data/" target="_blank"><strong>Middlebury</strong></a>: Originally designed for optical flow, Middlebury contains short video clips with moderate complexity. Its small size limits scalability, but it remains a standard benchmark for consistency evaluation.
-
-- <a href="https://www.crcv.ucf.edu/data/UCF101.php" target="_blank"><strong>UCF101</strong></a>: A human action dataset from which a small subset of triplets is used for VFI. Due to its low resolution and simple motion, it is mainly used for training or sanity checks.
-
-- <a href="http://toflow.csail.mit.edu/" target="_blank"><strong>Vimeo90K</strong></a>: A widely adopted benchmark with diverse scenes and consistent format. It offers clean supervision and balanced motion complexity, making it ideal for comparative analysis.
-
-- <a href="https://myungsub.github.io/CAIN/" target="_blank"><strong>SNU-FILM</strong></a>: Constructed from high-speed footage and categorized by motion difficulty, SNU-FILM enables evaluation across varying levels of motion, occlusion, and blur.
-
-- <a href="https://github.com/lisiyao21/AnimeInterp" target="_blank"><strong>ATD-12K</strong></a>: A large-scale animation dataset with rich stylistic diversity. Its variation in artistic textures and motion patterns supports both general-purpose and domain-specific evaluation.
-
----
-
-### 🔸 Multi-frame Datasets
-
-Multi-frame datasets enable dense temporal supervision and are commonly used in both CTFI and ATFI settings. They support flexible frame sampling and evaluation under diverse temporal intervals.
-
-- <a href="https://media.xiph.org/video/derf/" target="_blank"><strong>Xiph</strong></a>: A curated set of 4K video sequences designed for assessing interpolation fidelity in subtle motion settings.
-
-- <a href="http://www.cvlibs.net/datasets/kitti/" target="_blank"><strong>KITTI</strong></a>: Captured in autonomous driving scenarios, KITTI poses unique challenges with sparse GT and large ego-motion.
-
-- <a href="http://sintel.is.tue.mpg.de/" target="_blank"><strong>Sintel</strong></a>: A synthetic dataset rendered from the Sintel film, offering photorealistic motion and structured flow annotations.
-
-- <a href="https://davischallenge.org/" target="_blank"><strong>DAVIS</strong></a>: Originally for segmentation, DAVIS features complex object motion, occlusion, and deformation, offering rich dynamics for interpolation.
-
-- <a href="http://www.cs.ubc.ca/labs/imager/tr/2017/DeepVideoDeblurring/" target="_blank"><strong>Adobe240</strong></a>: Collected at 240fps, this dataset captures real-world motion blur and lighting changes, ideal for fine-grained temporal modeling.
-
-- <a href="https://seungjunnah.github.io/Datasets/gopro.html" target="_blank"><strong>GOPRO</strong></a>: Featuring high-frame-rate recordings with handheld cameras, GOPRO provides realistic non-linear motion and defocus blur.
-
-- <a href="https://jianghz.me/projects/superslomo/" target="_blank"><strong>Youtube240</strong></a>: A large-scale, in-the-wild dataset collected from YouTube, encompassing varied content and challenging motion artifacts.
-
-- <a href="https://media.xiph.org/video/derf/" target="_blank"><strong>HD</strong></a>: A subset of high-resolution content from Xiph, with sharper motion content suited for realistic evaluation.
-
-- <a href="https://github.com/JihyongOh/XVFI" target="_blank"><strong>X4K1000FPS</strong></a>: A premier benchmark for ultra-slow motion and long-range interpolation, thanks to its dense 1000fps and 4K capture settings.
-
-- <a href="https://github.com/m-bain/webvid" target="_blank"><strong>WebVid-10M</strong></a>: A large-scale web video corpus originally built for text-video tasks. Its size and diversity support generative VFI when properly filtered.
-
-- <a href="https://alexandrosstergiou.github.io/datasets/LAVIB" target="_blank"><strong>LAVIB</strong></a>: Designed for large-scale, diverse-domain evaluation with balanced splits and curated subsets for out-of-distribution testing.
-
-- <a href="https://github.com/NJU-PCALab/OpenVid-1M" target="_blank"><strong>OpenVid</strong></a>: A text-video dataset supporting multi-modal VFI and DM-based interpolation research via dense, aligned samples.
-
+* `Type`: Scene Type (`R`: Real, `S`:Synthetic)
+* `Motion`: Motion Type (`S`: Static, `D`: Dynamic)
 ---
 
 ## 📈 Evaluation Metrics
 
-This section summarizes commonly used metrics for evaluating the quality of video frame interpolation (VFI) results.
+This section summarizes commonly used metrics for evaluating the quality of 3D low-level vision results.
 
+---
 
-### 📷 Image-level Metrics
+### 🆚 Full-reference Metric
 
 These metrics compare each interpolated frame to its ground truth (GT) reference on a pixel level.
 
-- <a href="https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio" target="_blank"><strong>PSNR (Peak Signal-to-Noise Ratio)</strong></a>  
-  Measures reconstruction fidelity via Mean Squared Error (MSE).  
-  📌 Higher is better, but it often doesn't align with human perception, especially in high-frequency regions.
+- <a href="https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio" target="_blank"><strong>PSNR (Peak Signal-to-Noise Ratio)</strong></a>
+  <br> Measures reconstruction fidelity via Mean Squared Error (MSE).
+  <br> 📌 Higher is better, but it often doesn't align with human perception, especially in high-frequency regions.
 
-- <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1284395" target="_blank"><strong>SSIM (Structural Similarity Index)</strong></a>  
-  Compares luminance, contrast, and texture to evaluate structural similarity.  
-  📌 More perceptually aligned than PSNR. Higher SSIM indicates stronger similarity.
+- <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1284395" target="_blank"><strong>SSIM (Structural Similarity Index)</strong></a>
+  <br> Compares luminance, contrast, and texture to evaluate structural similarity.
+  <br> 📌 More perceptually aligned than PSNR. Higher SSIM indicates stronger similarity.
 
-- <a href="https://link.springer.com/article/10.1007/s11263-010-0390-2" target="_blank"><strong>IE (Interpolation Error)</strong></a>  
-  Root-mean-square error between the interpolated and GT frame.  
-  📌 Simple and intuitive but limited in perceptual relevance.
-
----
-
-### 👁️ Perceptual Metrics
-
-These metrics better reflect human perception by analyzing textures, semantics, and style.
-
-- <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Natural Image Quality Evaluator)</strong></a>  
-  A no-reference metric using statistical deviations from natural images.  
-  📌 Lower NIQE implies higher natural image quality.
-
+- <a href="https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html" target="_blank"><strong>LPIPS (Learned Perceptual Image Patch Similarity)</strong></a>
+  <br>Measures perceptual similarity between image patches using deep network features (e.g., from VGG or AlexNet).
+  <br>📌 Strong alignment with human perception but dependent on network backbone and training data.
 
 ---
 
-### 🎞️ Video-level Metrics
+### 📊 No-reference Metric
 
-These metrics evaluate spatiotemporal coherence across video sequences, important for smooth motion and consistency.
+These metrics have been proposed to evaluate visual quality without requiring GT data.
 
-- <a href="https://dl.acm.org/doi/pdf/10.1145/3343031.3351028" target="_blank"><strong>VSFA (Video Spatial-Feature Aggregation)</strong></a>  
-  No-reference model estimating perceptual quality from human-labeled videos using deep recurrent features.  
+- <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Natural Image Quality Evaluator)</strong></a>
+  <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
+  <br>📌 Lower NIQE implies higher natural image quality.
+
+* <a href="https://ieeexplore.ieee.org/abstract/document/7084843" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
+  <br>A completely blind image quality metric based on statistical regularities observed in natural images.
+  <br>📌 No reference needed, but performance is limited on complex distortions.
+
+* <a href="https://ieeexplore.ieee.org/abstract/document/6272356" target="_blank"><strong>BRISQUE (Blind/Referenceless Image Spatial Quality Evaluator)</strong></a>
+  <br>Measures image quality by modeling natural scene statistics in the spatial domain.
+  <br>📌 No-reference and fast, but less effective on unseen distortions.
+
+* <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html" target="_blank"><strong>VL-CORR (Vision-Language Correspondence for IQA)</strong></a>
+  <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
+  <br>📌 Novel paradigm with strong generalization to real-world image distributions.
+
+* <a href="https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html" target="_blank"><strong>RankIQA</strong></a>
+  <br>Trains deep networks to rank image quality by learning from relative comparisons, without requiring precise scores.
+  <br>📌 Efficiently uses pairwise annotations; avoids subjective scoring bias.
+
+* <a href="https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_MetaIQA_Deep_Meta-Learning_for_No-Reference_Image_Quality_Assessment_CVPR_2020_paper.html" target="_blank"><strong>MetaIQA</strong></a>
+  <br>A meta-learning-based framework for NR-IQA, enabling fast adaptation to new distortion types.
+  <br>📌 Generalizes better to unseen data but sensitive to meta-training setup.
+
+* <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html" target="_blank"><strong>MUSIQ (Multi-Scale Image Quality Transformer)</strong></a>
+  <br>Uses a transformer architecture with multi-scale image patches to assess quality without reference.
+  <br>📌 Strong performance across diverse datasets; transformer-based scalability.
+
+* <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25353" target="_blank"><strong>GPT-IQA</strong></a>
+  <br>Introduces generative priors and prompt tuning with vision-language models for blind image quality assessment.
+  <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
+
+* <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Yang_MANIQA_Multi-Dimension_Attention_Network_for_No-Reference_Image_Quality_Assessment_CVPRW_2022_paper.html" target="_blank"><strong>MANIQA</strong></a>
+  <br>Applies a multi-dimension attention mechanism for NR-IQA using transformers and feature fusion.
+  <br>📌 Excels in capturing complex distortions and perceptual attributes.
+
+* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ</strong></a>
+  <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
+  <br>📌 Provides fine-grained spatial quality maps; efficient and perceptually aligned.
+
+---
+
+### ⏱️ Temporal Consistency
+
+* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ (Perceptual Quality Prediction from Patches to Pictures)</strong></a>
+  <br>Predicts local perceptual quality on high-resolution images by training on patch-level human perceptual judgments.
+  <br>📌 Enables dense quality maps and end-to-end learning aligned with human perception.
 
