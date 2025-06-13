@@ -628,7 +628,7 @@ We categorize recent 3D-LLV papers by methodology:
 <tr>
   <td align="left">
     <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-72630-9_15.pdf">
-      [Title Not Available]
+      GAURA: Generalizable Approach for Unified Restoration and Rendering of Arbitrary Views
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -720,7 +720,7 @@ We categorize recent 3D-LLV papers by methodology:
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32842">
-      [Title Not Available]
+      Bright-NeRF: Brightening Neural Radiance Field with Color Restoration from Low-Light RAW Images
     </a>
   </td>
   <td align="center">AAAI</td>
@@ -780,7 +780,7 @@ We categorize recent 3D-LLV papers by methodology:
 <tr>
   <td align="left">
     <a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.15213">
-      [Title Not Available]
+      Gaussian in the Dark: Real-Time View Synthesis From Inconsistent Dark Images Using Gaussian Splatting
     </a>
   </td>
   <td align="center">Computer Graphics Forum</td>
@@ -960,85 +960,6 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2025</td>
   <td align="center">Diffusion-based</td>
 </tr>
-
-
-</tbody>
-</table>
-
-### 4.5. Restoration in 3D LLV
-#### 4.5.1. Reference-based
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="center">Publication</th>
-<th align="center">Date</th>
-<th align="center">Tags</th>
-</tr>
-</thead>
-<tbody>
-
-<tr>
-  <td align="left">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-72698-9_3">
-      Texture-GS: Disentangling the Geometry and Texture for 3D Gaussian Splatting Editing
-    </a>
-  </td>
-  <td align="center">ECCV</td>
-  <td align="center">2024</td>
-  <td align="center">Texture modeling-based</td>
-</tr>
-<tr>
-  <td align="left">
-    <a href="https://arxiv.org/abs/2407.09733">
-      Textured-GS: Gaussian Splatting with Spatially Defined Color and Opacity
-    </a>
-  </td>
-  <td align="center">arXiv</td>
-  <td align="center">2024</td>
-  <td align="center">Texture modeling-based</td>
-</tr>
-<tr>
-  <td align="left">
-    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Chao_Textured_Gaussians_for_Enhanced_3D_Scene_Appearance_Modeling_CVPR_2025_paper.html">
-      Textured Gaussians for Enhanced 3D Scene Appearance Modeling
-    </a>
-  </td>
-  <td align="center">CVPR</td>
-  <td align="center">2025</td>
-  <td align="center">Texture modeling-based</td>
-</tr>
-
-</tbody>
-</table>
-
-#### 4.5.2. Generative-based
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="center">Publication</th>
-<th align="center">Date</th>
-<th align="center">Tags</th>
-</tr>
-</thead>
-<tbody>
-
-
-</tbody>
-</table>
-
-
-<table>
-<thead>
-<tr>
-<th align="left">Title</th>
-<th align="center">Publication</th>
-<th align="center">Date</th>
-<th align="center">Tags</th>
-</tr>
-</thead>
-<tbody>
 
 
 </tbody>
