@@ -62,7 +62,7 @@ A brief description of your method/resource
 
 Relevant links (e.g., arXiv, project page, code)
 
-Suggested placement (e.g., under “4.2 Deblurring”, “4.5 Enhancement”)
+Suggested placement (e.g., under “4.2. Deblurring in 3D LLV”)
 
 Our maintainers will review your submission and merge it if appropriate.
 We hope this page will grow into a collaborative hub for 3D Low-Level Vision (3D LLV) research, covering topics such as degradation-aware rendering, neural field restoration, and robust 3D reconstruction under real-world conditions.
