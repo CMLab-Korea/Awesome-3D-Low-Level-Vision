@@ -10,8 +10,7 @@
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.Awesome-3D-Low-Level-Vision)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
 [![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](-)
-[![Stars](https://img.shields.io/github/stars/CMLab-Korea/Awesome-3D-Low-Level-Vision.svg?style=social&label=Star)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
-
+[![GitHub Repo stars](https://img.shields.io/github/stars/CMLab-Korea/Awesome-3D-Low-Level-Vision?style=social)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision/stargazers)
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
 **"R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision"** (arXiv2025).
@@ -1083,3 +1082,4 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>Predicts local perceptual quality on high-resolution images by training on patch-level human perceptual judgments.
   <br>📌 Enables dense quality maps and end-to-end learning aligned with human perception.
 
+[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/Awesome-3D-Low-Level-Vision&type=Date)](https://www.star-history.com/#CMLab-Korea/Awesome-3D-Low-Level-Vision&Date)
