@@ -1,5 +1,5 @@
 # Awesome-3D-Low Level Vision
-### R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision
+###  <img src="./imgs/icon.png" width="20" style="vertical-align: middle;"> R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision
 
 <p align="center">
   <img src="imgs/image4.png" alt="figure">
