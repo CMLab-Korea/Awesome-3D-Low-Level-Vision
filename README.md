@@ -8,18 +8,15 @@
 
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.CMLab-Korea.Awesome-3D-Low-Level-Vision)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
-<!-- TODO: 아래 arxiv 는 논문 공개되면 수정해야 함  -->
-<!-- [![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/your-paper-id) -->
-[![License: CC BY 4.0](https://img.shields.io/badge/license-CC--BY%204.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.Awesome-3D-Low-Level-Vision)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](-)
 [![Stars](https://img.shields.io/github/stars/CMLab-Korea/Awesome-3D-Low-Level-Vision.svg?style=social&label=Star)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
 
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
 **"R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision"** (arXiv2025).
 
-> 📝 **Authors**: Weeyoung Kwon, Jeahun Seong, Chanho Eom, and Jihyong Oh†
+> 📝 **Authors**: Weeyoung Kwon, Jeahun Sung, Minkyu Jeon, Chanho Eom, and Jihyong Oh†
 
 > 🎓 **Institution**: Chung-Ang University, GSAIM  
 
@@ -50,13 +47,19 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 
 ---
 
-## 🔖 BibTeX
+## 🔖 Citation
 
 If you find this survey helpful, please consider citing us:
 
 ```bitex
 not upload yet
 ```
+
+---
+
+## 🧩 Community Contribution
+
+
 
 ---
 
@@ -965,37 +968,53 @@ We categorize recent 3D-LLV papers by methodology:
 </tbody>
 </table>
 
+## 5. Experimental Setup
 
-## 📊 Datasets & Benchmarks 
+## 📊 5.1. Datasets & Benchmarks 
 
 We include commonly used datasets for evaluating 3D-LLV performance.
 
-| **Dataset**              | Year | Type   | #Scenes | #Images     | Resolution     | Motion | Link  |
-|--------------------------|------|--------|---------|-------------|----------------|--------|-------|
-| DTU                      | 2014 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 124     | 49 or 64    | 1600 × 1200    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://roboimagedata.compute.dtu.dk/?page_id=36) |
-| Tanks and Temples        | 2017 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 21      | 100–400     | 1920 × 1080    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://www.tanksandtemples.org/) |
-| Deep Blending            | 2018 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 19      | 12–418      | 1288 × 816     | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://github.com/Phog/DeepBlending) |
-| LLFF                     | 2019 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 8       | 20–62       | 6032 × 3024    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span> | [🔗](https://github.com/Fyusion/LLFF) |
-| Stereo Blur Dataset      | 2019 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 135     | Video       | 1280 × 720     | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://shangchenzhou.com/projects/stereoblur/) |
-| NeRF-synthetic           | 2020 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>      | 8       | 400         | 800 × 800      | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/bmild/nerf) |
-| BlendedMVS               | 2020 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 113     | 150–200     | 2048 × 1536    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/YoYo000/BlendedMVS) |
-| NSVF Synthetic           | 2020 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>       | 8       | 400         | 800 × 800      | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/facebookresearch/NSVF) |
-| HyperNeRF                | 2021 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 7       | Video       | 1920 × 1080    | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://hypernerf.github.io/) |
-| Deblur-NeRF              | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 31      | 27–53       | 600 × 400      | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://github.com/limacv/Deblur-NeRF) |
-| NeRF in the Dark         | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>/<span style="background-color:#FFE6E6"><span style="color:black">S</span></span>     | 5       | 25–200      | 6000 × 4000    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://bmild.github.io/rawnerf/) |
-| Mip-NeRF 360             | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 9       | 100–330     | 4096 × 3286    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://jonbarron.info/mipnerf360/) |
-| RTMV                     | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 2000    | 150         | 1600 × 1600    | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://github.com/antony-wu/rtmv) |
-| iPhone Dataset           | 2022 | <span style="background-color:#DCFFE4"><span style="color:black">R</span></span>      | 14      | Video       | 720 × 960      | <span style="background-color:#CCE5FF"><span style="color:black">D</span></span>      | [🔗](https://github.com/apple/ml-hdrnet) |
-| Objaverse                | 2023 | <span style="background-color:#FFE6E6"><span style="color:black">S</span></span>       | 800K+   | 3D Object   | -              | <span style="background-color:#F5F5F5"><span style="color:black">S</span></span>      | [🔗](https://objaverse.allenai.org/) |
+| **Dataset**              | Year | Type   | #Scenes | #Images     | Resolution     | Motion |
+|--------------------------|------|--------|---------|-------------|----------------|--------|
+| [DTU](https://roboimagedata.compute.dtu.dk/?page_id=36)| 2014 | `R`      | 124     | 49 or 64    | 1600 × 1200    | `S`  |
+| [Tanks and Temples](https://www.tanksandtemples.org/)| 2017 | `R`      | 21      | 100–400     | 1920 × 1080    | `S`  |
+| [Deep Blending](https://github.com/Phog/DeepBlending)| 2018 | `R`      | 19      | 12–418      | 1288 × 816     | `S`  |
+| [LLFF](https://github.com/Fyusion/LLFF)| 2019 | `R`      | 8       | 20–62       | 6032 × 3024    | `S`  |
+| [Stereo Blur Dataset](https://shangchenzhou.com/projects/stereoblur/)| 2019 | `R`      | 135     | Video       | 1280 × 720     | `D`  |
+| [NeRF-synthetic](https://github.com/bmild/nerf)| 2020 | `S`      | 8       | 400         | 800 × 800      | `S`  |
+| [BlendedMVS](https://github.com/YoYo000/BlendedMVS)| 2020 | `R`/`S`     | 113     | 150–200     | 2048 × 1536 | `S`  |
+| [NSVF Synthetic](https://github.com/facebookresearch/NSVF)| 2020 | `S`       | 8       | 400         | 800 × 800     | `S`  |
+| [HyperNeRF](https://hypernerf.github.io/)| 2021 | `R`/`S`     | 7       | Video       | 1920 × 1080 | `D`  |
+| [Deblur-NeRF](https://github.com/limacv/Deblur-NeRF)| 2022 | `R`/`S`     | 31      | 27–53       | 600 × 400   | `D`  |
+| [NeRF in the Dark](https://bmild.github.io/rawnerf/)| 2022 | `R`/`S`     | 5       | 25–200      | 6000 × 4000 | `S`  |
+| [Mip-NeRF 360](https://jonbarron.info/mipnerf360/)| 2022 | `R`      | 9       | 100–330     | 4096 × 3286    | `S`  |
+| [RTMV](https://github.com/antony-wu/rtmv)| 2022 | `R`      | 2000    | 150         | 1600 × 1600    | `S`  |
+| [iPhone Dataset](https://github.com/apple/ml-hdrnet)| 2022 | `R`      | 14      | Video       | 720 × 960      | `D`  |
+| [Objaverse](https://objaverse.allenai.org/)| 2023 | `S`       | 800K+   | 3D Object   | -             | `S`  |
 
 * `Type`: Scene Type (`R`: Real, `S`:Synthetic)
 * `Motion`: Motion Type (`S`: Static, `D`: Dynamic)
 ---
 
-## 📈 Evaluation Metrics
+## 📈 5.2. Evaluation Metrics
 
 This section summarizes commonly used metrics for evaluating the quality of 3D low-level vision results.
 
+| Title                                                              | Publication (Venue / Journal)| Tags | Year |
+| -------------------------------------------------------------      | -----------------------------| ---- | ---- |
+| [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)| - | Full-Rerence | - |
+| [SSIM](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1284395)| IEEE TIP | Full-Rerence | 2004 |
+| [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)| CVPR | Full-Rerence | 2018 |
+| [BRISQUE](https://ieeexplore.ieee.org/abstract/document/6272356)| IEEE TIP | No-Reference | 2012 | 
+| [NIQE](https://ieeexplore.ieee.org/document/6353522)| IEEE SPL | No-Reference | 2013 |
+| [RankIQA](https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html)| ICCV | No-Reference | 2017 |
+| [MetaIQA](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_MetaIQA_Deep_Meta-Learning_for_No-Reference_Image_Quality_Assessment_CVPR_2020_paper.html)| CVPR | No-Reference | 2020 |
+| [PaQ-2-PiQ](https://dl.acm.org/doi/abs/10.1145/3386569.3392457)| ACMMM | No-Reference | 2020 |
+| [MUSIQ](https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html)| ICCV | No-Reference | 2021 |
+| [MANIQA](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Yang_MANIQA_Multi-Dimension_Attention_Network_for_No-Reference_Image_Quality_Assessment_CVPRW_2022_paper.html)| CVPR | No-Reference | 2022 |
+| [GPT-IQA](https://ojs.aaai.org/index.php/AAAI/article/view/25353)| AAAI | No-Reference | 2023 |
+| [VL-CORR](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html)| CVPR | No-Reference | 2023 |
+| [tOF](https://dl.acm.org/doi/abs/10.1145/3386569.3392457) | CVPR | Temporal-Consistency | 2020 |
 ---
 
 ### 🆚 Full-reference Metric
@@ -1020,21 +1039,13 @@ These metrics compare each interpolated frame to its ground truth (GT) reference
 
 These metrics have been proposed to evaluate visual quality without requiring GT data.
 
-- <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Natural Image Quality Evaluator)</strong></a>
-  <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
-  <br>📌 Lower NIQE implies higher natural image quality.
-
-* <a href="https://ieeexplore.ieee.org/abstract/document/7084843" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
-  <br>A completely blind image quality metric based on statistical regularities observed in natural images.
-  <br>📌 No reference needed, but performance is limited on complex distortions.
-
 * <a href="https://ieeexplore.ieee.org/abstract/document/6272356" target="_blank"><strong>BRISQUE (Blind/Referenceless Image Spatial Quality Evaluator)</strong></a>
   <br>Measures image quality by modeling natural scene statistics in the spatial domain.
   <br>📌 No-reference and fast, but less effective on unseen distortions.
 
-* <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html" target="_blank"><strong>VL-CORR (Vision-Language Correspondence for IQA)</strong></a>
-  <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
-  <br>📌 Novel paradigm with strong generalization to real-world image distributions.
+* <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
+  <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
+  <br>📌 Lower NIQE implies higher natural image quality.
 
 * <a href="https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html" target="_blank"><strong>RankIQA</strong></a>
   <br>Trains deep networks to rank image quality by learning from relative comparisons, without requiring precise scores.
@@ -1044,21 +1055,25 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>A meta-learning-based framework for NR-IQA, enabling fast adaptation to new distortion types.
   <br>📌 Generalizes better to unseen data but sensitive to meta-training setup.
 
+* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ</strong></a>
+  <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
+  <br>📌 Provides fine-grained spatial quality maps; efficient and perceptually aligned.
+
 * <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html" target="_blank"><strong>MUSIQ (Multi-Scale Image Quality Transformer)</strong></a>
   <br>Uses a transformer architecture with multi-scale image patches to assess quality without reference.
   <br>📌 Strong performance across diverse datasets; transformer-based scalability.
-
-* <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25353" target="_blank"><strong>GPT-IQA</strong></a>
-  <br>Introduces generative priors and prompt tuning with vision-language models for blind image quality assessment.
-  <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
 
 * <a href="https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Yang_MANIQA_Multi-Dimension_Attention_Network_for_No-Reference_Image_Quality_Assessment_CVPRW_2022_paper.html" target="_blank"><strong>MANIQA</strong></a>
   <br>Applies a multi-dimension attention mechanism for NR-IQA using transformers and feature fusion.
   <br>📌 Excels in capturing complex distortions and perceptual attributes.
 
-* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ</strong></a>
-  <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
-  <br>📌 Provides fine-grained spatial quality maps; efficient and perceptually aligned.
+* <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25353" target="_blank"><strong>GPT-IQA</strong></a>
+  <br>Introduces generative priors and prompt tuning with vision-language models for blind image quality assessment.
+  <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
+
+* <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html" target="_blank"><strong>VL-CORR (Vision-Language Correspondence for IQA)</strong></a>
+  <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
+  <br>📌 Novel paradigm with strong generalization to real-world image distributions.
 
 ---
 
