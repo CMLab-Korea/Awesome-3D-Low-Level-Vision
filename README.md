@@ -15,9 +15,12 @@
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
 **"R<sup>3</sup>eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision"** (arXiv2025).
 
-> 📝 **Authors**: Weeyoung Kwon, Jeahun Sung, Minkyu Jeon, Chanho Eom, and Jihyong Oh†
+> 📝 **Authors**: Weeyoung Kwon<sup>1</sup>, Jeahun Sung<sup>2</sup>, Minkyu Jeon<sup>3</sup>, Chanho Eom<sup>1</sup>, and Jihyong Oh<sup>2†</sup>
 
-> 🎓 **Institution**: Chung-Ang University, GSAIM  
+> 🎓 **Institution**: </br>
+> * <sup>1</sup> Department of Metaverse Convergence, GSAIM, **Chung-Ang University** </br>
+> * <sup>2</sup> Department of Imaging Science, GSAIM, **Chung-Ang University** </br>
+> * <sup>3</sup> Department of Computer Science, **Princeton University**
 
 ---
 
@@ -72,7 +75,17 @@ We hope this page will grow into a collaborative hub for 3D Low-Level Vision (3D
 
 ## 🧩 Community Contribution
 
+We welcome contributions from the 3D LLV research community!
 
+If you have a new method, dataset, or related resource that fits within the scope of this 3D LLV repository, please feel free to submit a pull request (PR) with the following:
+
+A brief description of your method/resource
+
+Relevant links (e.g., arXiv, project page, code)
+
+Suggested placement (e.g., under “4.2. Deblurring in 3D LLV”)
+
+Our maintainers will review your submission and merge it if appropriate. We hope this page will grow into a collaborative hub for 3D Low-Level Vision (3D LLV) research, covering topics such as degradation-aware rendering, neural field restoration, and robust 3D reconstruction under real-world conditions.
 
 ---
 
