@@ -1082,4 +1082,6 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>Predicts local perceptual quality on high-resolution images by training on patch-level human perceptual judgments.
   <br>📌 Enables dense quality maps and end-to-end learning aligned with human perception.
 
+## 💫 Star History
+
 [![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/Awesome-3D-Low-Level-Vision&type=Date)](https://www.star-history.com/#CMLab-Korea/Awesome-3D-Low-Level-Vision&Date)
