@@ -9,7 +9,7 @@
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.Awesome-3D-Low-Level-Vision)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision)
-[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](-)
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.16262)
 [![GitHub Repo stars](https://img.shields.io/github/stars/CMLab-Korea/Awesome-3D-Low-Level-Vision?style=social)](https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision/stargazers)
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
@@ -34,18 +34,17 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 ## 📚 Contents
 
 - [📣 News](#-news)
-- [🔖 BibTeX](#-bibtex)
+- [🔖 Citation](#-citation)
 - [🔍 Survey Paper](#-survey-paper)
 - [📄 Paper List](#-paper-list)
-- [📊 Datasets & Benchmarks](#-datasets--benchmarks)
-- [📈 Evaluation Metrics](#-evaluation-metrics)
+- [📊 Experimental Setup](#-experimental--setup)
 
 ---
 
 ## 📣 News
 
-- 📌 2025-xx: Paper released to ArXiv.
-- 🚀 2025-xx: Repository initialized.
+- 📌 2025-06: Paper released to ArXiv.
+- 🚀 2025-05: Repository initialized.
 
 ---
 
@@ -53,9 +52,15 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 
 If you find this survey helpful, please consider citing us:
 
-```bitex
-not upload yet
+```citation
+@article{Kwon2025R3eVision,
+  title={R3eVision: A Survey on Robust Rendering, Restoration, and Enhancement for 3D Low-Level Vision},
+  author={Kwon, Weeyoung and Sung, Jeahun and Jeon, Minkyu and Eom, Chanho and Oh, Jihyong},
+  journal={arXiv preprint arXiv:2506.01061},
+  year={2025}
+}
 ```
+---
 
 ## 🧩 Community Contribution
 
@@ -76,7 +81,7 @@ Our maintainers will review your submission and merge it if appropriate. We hope
 ## 🔍 Survey Paper
 
 You can find the preprint of our survey here:  
-📄 [arXiv:paper-id](https://arxiv.org/abs/paper-id)
+📄 [arXiv:paper-id](https://arxiv.org/abs/2506.16262)
 
 
 The overview of our survey paper:
