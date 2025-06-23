@@ -81,7 +81,7 @@ Our maintainers will review your submission and merge it if appropriate. We hope
 ## 🔍 Survey Paper
 
 You can find the preprint of our survey here:  
-📄 [arXiv:paper-id](https://arxiv.org/abs/2506.16262)
+📄 [arXiv:2506.16262](https://arxiv.org/abs/2506.16262)
 
 
 The overview of our survey paper:
