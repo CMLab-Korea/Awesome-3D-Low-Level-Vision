@@ -139,6 +139,17 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2023</td>
 <td align="center">Image-based</td>
 </tr>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2312.12122">
+      ZS-SRT: An Efficient Zero-Shot Super-Resolution Training Method for Neural Radiance Fields
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2023</td>
+<td align="center">Image-based</td>
+</tr>  
 <tr>
   <td align="left">
     <a href="https://openaccess.thecvf.com/content/WACV2024/html/Lin_FastSR-NeRF_Improving_NeRF_Efficiency_on_Consumer_Devices_With_a_Simple_WACV_2024_paper.html">
