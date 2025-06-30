@@ -1033,13 +1033,13 @@ This section summarizes commonly used metrics for evaluating the quality of 3D l
 | [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)| CVPR | Full-Rerence | 2018 |
 | [BRISQUE](https://ieeexplore.ieee.org/abstract/document/6272356)| IEEE TIP | No-Reference | 2012 | 
 | [NIQE](https://ieeexplore.ieee.org/document/6353522)| IEEE SPL | No-Reference | 2013 |
+| [PIQE](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7084843)| NCC | No-Reference | 2015 |
 | [RankIQA](https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html)| ICCV | No-Reference | 2017 |
 | [MetaIQA](https://openaccess.thecvf.com/content_CVPR_2020/html/Zhu_MetaIQA_Deep_Meta-Learning_for_No-Reference_Image_Quality_Assessment_CVPR_2020_paper.html)| CVPR | No-Reference | 2020 |
-| [PaQ-2-PiQ](https://dl.acm.org/doi/abs/10.1145/3386569.3392457)| ACMMM | No-Reference | 2020 |
 | [MUSIQ](https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html)| ICCV | No-Reference | 2021 |
 | [MANIQA](https://openaccess.thecvf.com/content/CVPR2022W/NTIRE/html/Yang_MANIQA_Multi-Dimension_Attention_Network_for_No-Reference_Image_Quality_Assessment_CVPRW_2022_paper.html)| CVPR | No-Reference | 2022 |
-| [GPT-IQA](https://ojs.aaai.org/index.php/AAAI/article/view/25353)| AAAI | No-Reference | 2023 |
-| [VL-CORR](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html)| CVPR | No-Reference | 2023 |
+| [LIQE](https://arxiv.org/pdf/2303.14968)| CVPR | No-Reference | 2023 |
+| [CLIP-IQA](https://github.com/IceClear/CLIP-IQA)| AAAi | No-Reference | 2023 |
 | [tOF](https://dl.acm.org/doi/abs/10.1145/3386569.3392457) | CVPR | Temporal-Consistency | 2020 |
 ---
 
@@ -1071,7 +1071,11 @@ These metrics have been proposed to evaluate visual quality without requiring GT
 
 * <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
   <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
-  <br>📌 Lower NIQE implies higher natural image quality.
+  <br>📌 Lower NIQE implies higher natural image quality.  
+
+* <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7084843" target="_blank"><strong>PIQE</strong></a>
+  <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
+  <br>📌 Provides fine-grained spatial quality maps; fast, heuristic-based, and perceptually motivated. 
 
 * <a href="https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html" target="_blank"><strong>RankIQA</strong></a>
   <br>Trains deep networks to rank image quality by learning from relative comparisons, without requiring precise scores.
@@ -1081,10 +1085,6 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>A meta-learning-based framework for NR-IQA, enabling fast adaptation to new distortion types.
   <br>📌 Generalizes better to unseen data but sensitive to meta-training setup.
 
-* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ</strong></a>
-  <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
-  <br>📌 Provides fine-grained spatial quality maps; efficient and perceptually aligned.
-
 * <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Ke_MUSIQ_Multi-Scale_Image_Quality_Transformer_ICCV_2021_paper.html" target="_blank"><strong>MUSIQ (Multi-Scale Image Quality Transformer)</strong></a>
   <br>Uses a transformer architecture with multi-scale image patches to assess quality without reference.
   <br>📌 Strong performance across diverse datasets; transformer-based scalability.
@@ -1093,21 +1093,21 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>Applies a multi-dimension attention mechanism for NR-IQA using transformers and feature fusion.
   <br>📌 Excels in capturing complex distortions and perceptual attributes.
 
-* <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25353" target="_blank"><strong>GPT-IQA</strong></a>
-  <br>Introduces generative priors and prompt tuning with vision-language models for blind image quality assessment.
-  <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
-
-* <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Blind_Image_Quality_Assessment_via_Vision-Language_Correspondence_A_Multitask_Learning_CVPR_2023_paper.html" target="_blank"><strong>VL-CORR (Vision-Language Correspondence for IQA)</strong></a>
+* <a href="https://arxiv.org/pdf/2303.14968" target="_blank"><strong>LIQE</strong></a>
   <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
-  <br>📌 Novel paradigm with strong generalization to real-world image distributions.
+  <br>📌 Novel paradigm with strong generalization to real-world image distributions.  
+
+* <a href="https://github.com/IceClear/CLIP-IQA" target="_blank"><strong>CLIP-IQA</strong></a>
+  <br> Utilizes CLIP's pretrained vision-language embedding to assess perceptual quality via text-image similarity.
+  <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
 
 ---
 
 ### ⏱️ Temporal Consistency
 
-* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>PaQ-2-PiQ (Perceptual Quality Prediction from Patches to Pictures)</strong></a>
-  <br>Predicts local perceptual quality on high-resolution images by training on patch-level human perceptual judgments.
-  <br>📌 Enables dense quality maps and end-to-end learning aligned with human perception.
+* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>tOF</strong></a>
+  <br> Measures how consistent optical flow is across frames.
+  <br>📌 Lower tOF = smoother motion continuity.
 
 ## 💫 Star History
 
