@@ -1069,13 +1069,13 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>Measures image quality by modeling natural scene statistics in the spatial domain.
   <br>📌 No-reference and fast, but less effective on unseen distortions.
 
+* <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
+  <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
+  <br>📌 Lower NIQE implies higher natural image quality.  
+
 * <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7084843" target="_blank"><strong>PIQE</strong></a>
   <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
   <br>📌 Provides fine-grained spatial quality maps; fast, heuristic-based, and perceptually motivated. 
-
-* <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
-  <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
-  <br>📌 Lower NIQE implies higher natural image quality.
 
 * <a href="https://openaccess.thecvf.com/content_iccv_2017/html/Liu_RankIQA_Learning_From_ICCV_2017_paper.html" target="_blank"><strong>RankIQA</strong></a>
   <br>Trains deep networks to rank image quality by learning from relative comparisons, without requiring precise scores.
@@ -1093,13 +1093,13 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>Applies a multi-dimension attention mechanism for NR-IQA using transformers and feature fusion.
   <br>📌 Excels in capturing complex distortions and perceptual attributes.
 
+* <a href="https://arxiv.org/pdf/2303.14968" target="_blank"><strong>LIQE</strong></a>
+  <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
+  <br>📌 Novel paradigm with strong generalization to real-world image distributions.  
+
 * <a href="https://github.com/IceClear/CLIP-IQA" target="_blank"><strong>CLIP-IQA</strong></a>
   <br> Utilizes CLIP's pretrained vision-language embedding to assess perceptual quality via text-image similarity.
   <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
-
-* <a href="https://arxiv.org/pdf/2303.14968" target="_blank"><strong>LIQE</strong></a>
-  <br>Leverages alignment between image content and language descriptions for blind IQA via multitask learning.
-  <br>📌 Novel paradigm with strong generalization to real-world image distributions.
 
 ---
 
