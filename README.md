@@ -1071,7 +1071,7 @@ These metrics have been proposed to evaluate visual quality without requiring GT
 
 * <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7084843" target="_blank"><strong>PIQE</strong></a>
   <br>Predicts local perceptual quality with high resolution using patch-level IQA and perceptual index training.
-  <br>📌 Provides fine-grained spatial quality maps; efficient and perceptually aligned.  
+  <br>📌 Provides fine-grained spatial quality maps; fast, heuristic-based, and perceptually motivated. 
 
 * <a href="https://ieeexplore.ieee.org/document/6353522" target="_blank"><strong>NIQE (Naturalness Image Quality Evaluator)</strong></a>
   <br>A no-reference metric using statistical deviations from natural images. (Statistics approach)
@@ -1094,7 +1094,7 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br>📌 Excels in capturing complex distortions and perceptual attributes.
 
 * <a href="https://github.com/IceClear/CLIP-IQA" target="_blank"><strong>CLIP-IQA</strong></a>
-  <br>Introduces generative priors and prompt tuning with vision-language models for blind image quality assessment.
+  <br> Utilizes CLIP's pretrained vision-language embedding to assess perceptual quality via text-image similarity.
   <br>📌 Integrates large-scale vision-language models for improved perceptual reasoning.
 
 * <a href="https://arxiv.org/pdf/2303.14968" target="_blank"><strong>LIQE</strong></a>
@@ -1106,8 +1106,8 @@ These metrics have been proposed to evaluate visual quality without requiring GT
 ### ⏱️ Temporal Consistency
 
 * <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>tOF</strong></a>
-  <br>Predicts local perceptual quality on high-resolution images by training on patch-level human perceptual judgments.
-  <br>📌 Enables dense quality maps and end-to-end learning aligned with human perception.
+  <br> Measures how consistent optical flow is across frames.
+  <br>📌 Lower tOF = smoother motion continuity.
 
 ## 💫 Star History
 
