@@ -746,6 +746,18 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2022</td>
   <td align="center">HDR-based</td>
 </tr>
+  
+<tr>
+  <td align="left">
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/28624">
+      Enhancing Neural Radiance Fields with Adaptive Multi-Exposure Fusion: A Bilevel Optimization Approach for Novel View Synthesis
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2024</td>
+  <td align="center">HDR-based</td>
+</tr>
+  
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32842">
@@ -753,7 +765,7 @@ We categorize recent 3D-LLV papers by methodology:
     </a>
   </td>
   <td align="center">AAAI</td>
-  <td align="center">2024</td>
+  <td align="center">2025</td>
   <td align="center">HDR-based</td>
 </tr>
 <tr>
@@ -788,8 +800,28 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/pdf/2507.03976">
+      Robust Low-light Scene Restoration via Illumination Transition
+    </a>
+  </td>
+  <td align="center">ICCV</td>
+  <td align="center">2025</td>
+  <td align="center">Retinex-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2503.18640?">
+     LLGS: Unsupervised Gaussian Splatting for Image Enhancement and Reconstruction in Pure Dark Environment
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2025</td>
+  <td align="center">Retinex-based</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/27908">
-      An Ad-Hoc Interpretable Classifier for 3D Point Clouds
+      Aleth-NeRF: Illumination Adaptive NeRF with Concealing Field Assumption
     </a>
   </td>
   <td align="center">AAAI</td>
@@ -826,7 +858,55 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2024</td>
   <td align="center">Degradation Modeling-based</td>
 </tr>
-
+<tr>
+  <td align="left">
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10650707">
+      NeIF: Generalizable Illumination Neural Radiance Fields with Implicit Feature Volume
+    </a>
+  </td>
+  <td align="center">IJCNN</td>
+  <td align="center">2024</td>
+  <td align="center">Degradation Modeling-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://www.sciencedirect.com/science/article/pii/S0097849325000500">
+      GloNeRF: Boosting NeRF capabilities and multi-view consistency in low-light environments
+    </a>
+  </td>
+  <td align="center">Computers & Graphics</td>
+  <td align="center">2025</td>
+  <td align="center">Degradation Modeling-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10888468">
+      LLGS: Illuminating Gaussian Splatting via absorptance Modulation
+    </a>
+  </td>
+  <td align="center">ICASSP</td>
+  <td align="center">2025</td>
+  <td align="center">Degradation Modeling-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_LITA-GS_Illumination-Agnostic_Novel_View_Synthesis_via_Reference-Free_3D_Gaussian_Splatting_CVPR_2025_paper.pdf">
+      LITA-GS: Illumination-Agnostic Novel View Synthesis via Reference-Free 3D Gaussian Splatting and Physical Prior
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+  <td align="center">Degradation Modeling-based</td>
+  <tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Cui_Luminance-GS_Adapting_3D_Gaussian_Splatting_to_Challenging_Lighting_Conditions_with_CVPR_2025_paper.pdf">
+      Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+  <td align="center">Degradation Modeling-based</td>
+</tr>
 
 </tbody>
 </table>
