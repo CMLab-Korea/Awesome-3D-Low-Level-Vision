@@ -504,6 +504,16 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kumar_DynaMoDe-NeRF_Motion-aware_Deblurring_Neural_Radiance_Field_for_Dynamic_Scenes_CVPR_2025_paper.pdf">
+      DynaMoDe-NeRF: Motion-aware Deblurring Neural Radiance Field for Dynamic Scenes
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+  <td align="center">Motion & Defocus</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://arxiv.org/abs/2405.17351">
       DOF-GS: Adjustable Depth-of-Field 3D Gaussian Splatting for Post-Capture Refocusing, Defocus Rendering and Blur Removal
     </a>
