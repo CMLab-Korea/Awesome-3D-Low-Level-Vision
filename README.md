@@ -195,7 +195,6 @@ We categorize recent 3D-LLV papers by methodology:
 </table>
 
 ### 4.1.2. Generative-based
-### 4.1.2.1. Image-based
 <table>
 <thead>
 <tr>
@@ -249,11 +248,19 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2410.20815">
-      Grid4D: 4D Decomposed Hash Encoding for High-Fidelity Dynamic Gaussian Splatting
+      Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework
+  </td>
+  <td align="center">ICCV</td>
+  <td align="center">2025</td>
+  <td align="center">Image-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2406.00609">
+      SuperGaussian: Repurposing Video Models for 3D Super Resolution
     </a>
   </td>
-  <td align="center">NeurIPS</td>
+  <td align="center">ECCV</td>
   <td align="center">2024</td>
   <td align="center">Video-based</td>
 </tr>
@@ -1079,7 +1086,22 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2025</td>
   <td align="center">Diffusion-based</td>
 </tr>
-
+<tr>
+  <td align="left">
+      SEGS-SLAM: Structure-enhanced 3D Gaussian Splatting SLAM with Appearance Embedding
+  </td>
+  <td align="center">ICCV</td>
+  <td align="center">2025</td>
+  <td align="center">-</td>
+</tr>
+<tr>
+  <td align="left">
+      Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding
+  </td>
+  <td align="center">ICCV</td>
+  <td align="center">2025</td>
+  <td align="center">-</td>
+</tr>
 
 </tbody>
 </table>
