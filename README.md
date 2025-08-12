@@ -248,7 +248,9 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
-      Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework
+      <a href="https://arxiv.org/pdf/2508.04090">
+        Bridging Diffusion Models and 3D Representations: A 3D Consistent Super-Resolution Framework
+      </a>
   </td>
   <td align="center">ICCV</td>
   <td align="center">2025</td>
