@@ -1090,7 +1090,9 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
+    <a herf="https://arxiv.org/abs/2501.05242>
       SEGS-SLAM: Structure-enhanced 3D Gaussian Splatting SLAM with Appearance Embedding
+    </a>
   </td>
   <td align="center">ICCV</td>
   <td align="center">2025</td>
