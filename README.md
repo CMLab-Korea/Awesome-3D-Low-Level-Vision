@@ -523,6 +523,16 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/pdf/2510.10691">
+      Dynamic Gaussian Splatting from Defocused and Motion-blurred Monocular Videos
+    </a>
+  </td>
+  <td align="center">NeurIPS</td>
+  <td align="center">2025</td>
+  <td align="center">Motion & Defocus</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://arxiv.org/abs/2405.17351">
       DOF-GS: Adjustable Depth-of-Field 3D Gaussian Splatting for Post-Capture Refocusing, Defocus Rendering and Blur Removal
     </a>
