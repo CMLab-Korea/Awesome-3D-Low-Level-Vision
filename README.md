@@ -610,6 +610,17 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2025</td>
   <td align="center">-</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2510.22161">
+      I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions
+    </a>
+  </td>
+  <td align="center">NeurIPS</td>
+  <td align="center">2025</td>
+  <td align="center">-</td>   
+</tr>
+
 
 </tbody>
 </table>
@@ -644,6 +655,17 @@ We categorize recent 3D-LLV papers by methodology:
   </td>
   <td align="center">arXiv</td>
   <td align="center">2024</td>
+  <td align="center">-</td>
+</tr>
+
+<tr>
+  <td align="left">
+    <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32592">
+      DeRainGS: Gaussian Splatting for Enhanced Scene Reconstruction in Rainy Environments
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2025</td>
   <td align="center">-</td>
 </tr>
 
@@ -926,7 +948,8 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">CVPR</td>
   <td align="center">2025</td>
   <td align="center">Degradation Modeling-based</td>
-  <tr>
+</tr>
+<tr>
   <td align="left">
     <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Cui_Luminance-GS_Adapting_3D_Gaussian_Splatting_to_Challenging_Lighting_Conditions_with_CVPR_2025_paper.pdf">
       Luminance-GS: Adapting 3D Gaussian Splatting to Challenging Lighting Conditions with View-Adaptive Curve Adjustment
@@ -935,6 +958,16 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">CVPR</td>
   <td align="center">2025</td>
   <td align="center">Degradation Modeling-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2510.22161">
+      I2-NeRF: Learning Neural Radiance Fields Under Physically-Grounded Media Interactions
+    </a>
+  </td>
+  <td align="center">NeurIPS</td>
+  <td align="center">2025</td>
+  <td align="center">Degradation Modeling-based</td>   
 </tr>
 
 </tbody>
