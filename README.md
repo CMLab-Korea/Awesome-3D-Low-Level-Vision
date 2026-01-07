@@ -179,6 +179,41 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">arXiv</td>
   <td align="center">2024</td>
 <td align="center">Image-based</td>
+</tr>
+  
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2511.22233">
+      IE-SRGS: An Internal-External Knowledge Fusion Framework for High-Fidelity 3D Gaussian Splatting Super-Resolution
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2512.02172">
+      SplatSuRe: Selective Super-Resolution for Multi-view Consistent 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2025</td>
+<td align="center">Image-based</td>
+</tr>
+
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2512.15048">
+      MVGSR: Multi-View Consistent 3D Gaussian SR via Epipolar Guidance
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2025</td>
+<td align="center">Image-based</td>
+</tr>
+
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32458">
@@ -968,6 +1003,16 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
   <td align="center">Degradation Modeling-based</td>   
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2511.09818">
+      Lumos3D: A Single-Forward Framework for Low-Light 3D Scene Restoration
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2025</td>
+  <td align="center"></td>   
 </tr>
 
 </tbody>
