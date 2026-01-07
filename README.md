@@ -1188,7 +1188,9 @@ We categorize recent 3D-LLV papers by methodology:
 </tr>
 <tr>
   <td align="left">
+    <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/He_Joint_Semantic_and_Rendering_Enhancements_in_3D_Gaussian_Modeling_with_ICCV_2025_paper.pdf">
       Semantic and Rendering Enhancements in 3D Gaussian Modeling with Anisotropic Local Encoding
+    </a>
   </td>
   <td align="center">ICCV</td>
   <td align="center">2025</td>
