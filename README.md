@@ -179,6 +179,7 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">arXiv</td>
   <td align="center">2024</td>
 <td align="center">Image-based</td>
+</tr>
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32458">
