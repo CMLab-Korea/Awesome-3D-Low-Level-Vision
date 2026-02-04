@@ -216,6 +216,17 @@ We categorize recent 3D-LLV papers by methodology:
 
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/pdf/2512.15048](https://arxiv.org/pdf/2511.12040">
+      SRSplat: Feed-Forward Super-Resolution Gaussian Splatting from Sparse Multi-View Images
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+
+<tr>
+  <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32458">
       Sequence Matters: Harnessing Video Models in 3D Super-Resolution
     </a>
@@ -291,6 +302,18 @@ We categorize recent 3D-LLV papers by methodology:
   <td align="center">2025</td>
   <td align="center">Image-based</td>
 </tr>
+
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2508.16467">
+      Arbitrary-Scale 3D Gaussian Super-Resolution
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+
 <tr>
   <td align="left">
     <a href="https://arxiv.org/pdf/2406.00609">
@@ -804,6 +827,16 @@ We categorize recent 3D-LLV papers by methodology:
   </td>
   <td align="center">arXiv</td>
   <td align="center">2024</td>
+  <td align="center">-</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=461VpgnLsi">
+      ReSplat: Degradation-agnostic Feed-forward Gaussian Splatting via Self-guided Residual Diffusion
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
   <td align="center">-</td>
 </tr>
 
