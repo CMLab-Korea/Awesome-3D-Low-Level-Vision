@@ -417,8 +417,8 @@ We categorize recent 3D-LLV papers by methodology:
       MoBGS: Motion Trajectory-based Dynamic 3D Gaussian Splatting for Blurry Monocular Video
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2025</td>
+  <td align="center">AAAIv</td>
+  <td align="center">2026</td>
   <td align="center">Trajectory-based</td>
 </tr>
 <tr>
