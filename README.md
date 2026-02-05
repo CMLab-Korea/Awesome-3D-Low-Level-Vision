@@ -91,7 +91,7 @@ The overview of our survey paper:
 
 ## 📄 Paper List
 
-We categorize recent 3D-LLV papers by methodology:  
+We categorize recent 3D LLV papers by methodology (up to February 5, 2026):  
 
 
 ## 4.Low-Level Vision For Robust 3D Rendering
