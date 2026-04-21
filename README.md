@@ -84,9 +84,6 @@ You can find the preprint of our survey here:
 📄 [arXiv:2506.16262](https://arxiv.org/abs/2506.16262)
 
 
-The overview of our survey paper:
-![3D-LLV category](./imgs/texanomy.png)
-
 ---
 
 ## 📄 Paper List
