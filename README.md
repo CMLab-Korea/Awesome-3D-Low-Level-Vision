@@ -520,7 +520,7 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
   </td>
   <td align="center">CVPR</td>
   <td align="center">2026</td>
-  <td align="center"></td>
+  <td align="center">-</td>
 </tr>
 
 </tbody>
