@@ -42,7 +42,9 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 ---
 
 ## 📣 News
-
+- 📌 2026-04: CVPR 2026 papers updated.
+- 📌 2026-02: ICLR 2026 papers updated.
+- 📌 2026-01: AAAI 2026 papers updated.
 - 📌 2025-06: Paper released to ArXiv.
 - 🚀 2025-05: Repository initialized.
 
@@ -436,7 +438,7 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
       MoBGS: Motion Trajectory-based Dynamic 3D Gaussian Splatting for Blurry Monocular Video
     </a>
   </td>
-  <td align="center">AAAIv</td>
+  <td align="center">AAAI</td>
   <td align="center">2026</td>
   <td align="center">Trajectory-based</td>
 </tr>
