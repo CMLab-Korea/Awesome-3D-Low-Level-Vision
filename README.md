@@ -316,6 +316,17 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
 
 <tr>
   <td align="left">
+    <a href=https:"https://arxiv.org/pdf/2512.02172">
+      SplatSuRe: Selective Super-Resolution for Multi-view Consistent 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+
+<tr>
+  <td align="left">
     <a href="https://arxiv.org/pdf/2406.00609">
       SuperGaussian: Repurposing Video Models for 3D Super Resolution
     </a>
