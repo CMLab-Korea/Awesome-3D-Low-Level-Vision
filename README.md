@@ -227,6 +227,17 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
 
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/pdf/2602.24020">
+      SR3R: Rethinking Super-Resolution 3D Reconstruction With Feed-Forward Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+
+<tr>
+  <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32458">
       Sequence Matters: Harnessing Video Models in 3D Super-Resolution
     </a>
@@ -504,6 +515,17 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
   <td align="center">Event-based</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2411.16758">
+      Motion-Aware Animatable Gaussian Avatars Deblurring
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+  <td align="center"></td>
+</tr>
+
 </tbody>
 </table>
 
@@ -687,6 +709,17 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
+  <td align="center">-</td>   
+</tr>
+
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2603.27228">
+      NimbusGS: Unified 3D Scene Reconstruction under Hybrid Weather
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
   <td align="center">-</td>   
 </tr>
 
