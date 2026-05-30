@@ -882,6 +882,16 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
   <td align="center">2026</td>
   <td align="center">-</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2605.26230">
+      Geometry-Aware Representation Denoising for Robust Multi-view 3D Reconstruction
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+  <td align="center">-</td>
+</tr>
 
 </tbody>
 </table>
