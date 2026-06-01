@@ -454,6 +454,16 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
 </tr>
 <tr>
   <td align="left">
+    <a href= "https://openaccess.thecvf.com/content/CVPR2026/papers/Liao_MSCD-GS_Motion-Separated_Cooperative_Deblurring_Dynamic_Reconstruction_via_Gaussian_Splatting_CVPR_2026_paper.pdf">
+      MSCD-GS: Motion-Separated Cooperative Deblurring Dynamic Reconstruction via Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+  <td align="center">Trajectory-based</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://ieeexplore.ieee.org/abstract/document/10028738">
       E-NeRF: Neural Radiance Fields From a Moving Event Camera
     </a>
@@ -767,6 +777,16 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
   </td>
   <td align="center">AAAI</td>
   <td align="center">2025</td>
+  <td align="center">-</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Li_NimbusGS_Unified_3D_Scene_Reconstruction_under_Hybrid_Weather_CVPR_2026_paper.pdf">
+      NimbusGS: Unified 3D Scene Reconstruction under Hybrid Weather
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
   <td align="center">-</td>
 </tr>
 
