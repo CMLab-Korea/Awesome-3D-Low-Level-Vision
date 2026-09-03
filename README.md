@@ -1421,6 +1421,6 @@ These metrics have been proposed to evaluate visual quality without requiring GT
   <br> Measures how consistent optical flow is across frames.
   <br>📌 Lower tOF = smoother motion continuity.
 
-## 💫 Star History
+## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/Awesome-3D-Low-Level-Vision&type=Date)](https://www.star-history.com/#CMLab-Korea/Awesome-3D-Low-Level-Vision&Date)
+[![Star History Chart](https://api.star-history.com/chart?repos=CMLab-Korea/Awesome-3D-Low-Level-Vision&type=date&legend=top-left&sealed_token=lWs-tmeug2yZ5D-t3rhl1TLSjZ6EALtvLXx8fnlaynDs5NfGsMkyIB0naJ6XgCbaOaMSu3r_NNOEdyelorgSALIRsJ8u6wJ0BhJ_woMmIqTGgCTRbMpURQ)](https://www.star-history.com/?repos=CMLab-Korea%2FAwesome-3D-Low-Level-Vision&type=date&legend=top-left)
