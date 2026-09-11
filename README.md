@@ -42,6 +42,7 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 ---
 
 ## 📣 News
+- 📌 2026-09: ECCV 2026 papers updated.
 - 📌 2026-04: CVPR 2026 papers updated.
 - 📌 2026-02: ICLR 2026 papers updated.
 - 📌 2026-01: AAAI 2026 papers updated.
@@ -231,6 +232,26 @@ We categorize recent 3D LLV papers by methodology (up to February 5, 2026):
     </a>
   </td>
   <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://william2ai.github.io/medgssr/static/pdfs/medgssr.pdf">
+      MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Image-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://media.eventhosts.cc/Conferences/ECCV2026/pdfs/12210.pdf">
+     SupIR-GS: Thermal Infrared Super-Resolution Novel View Synthesis with Imaging-Calibrated 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ECCV</td>
   <td align="center">2026</td>
 <td align="center">Image-based</td>
 </tr>
